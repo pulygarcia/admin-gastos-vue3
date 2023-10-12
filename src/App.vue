@@ -185,11 +185,16 @@
       </div>
 
       <div class="crear-gasto">
-        <img
+        <div class="crear-icon-div"
           v-if="presupuesto"
           :src="nuevoGastoIcono"
           @click="mostrarModal"
         >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="svg-plus">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
+
+        </div>
       </div>
 
       <Modal 
@@ -231,7 +236,7 @@
   body{
     font-size: 1.6rem;
     font-family: 'Lato', sans-serif;
-    background-color: var(--gris-claro);
+    background-color: rgb(17, 24, 39);
   }
 
   h1{
@@ -242,7 +247,7 @@
   }
 
   header{
-    background-color: var(--azul);
+    background-image: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
   }
 
   header h1{
@@ -272,13 +277,17 @@
     bottom: 5rem;
     right: 5rem;
   }
-  .crear-gasto img{
-    width: 5rem;
-    transition: .2s ease;
-  }
-  .crear-gasto img:hover{
-    transform: scale(1.1);
+  .crear-icon-div{
     cursor: pointer;
+    transition: .2s ease;
+    border-radius: 100%;
+    border: none;
+    background-color: black;
+    padding: 1rem;
+  }
+  .svg-plus{
+    color: #ff6e6e;
+    width: 5rem;
   }
   .listado-gastos{
     margin-top: 10rem;

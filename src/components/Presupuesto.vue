@@ -61,7 +61,7 @@
     .campo label{
         text-align: center;
         font-size: 2.5rem;
-        color: var(--azul);
+        color: #6119be;
         font-weight: 900;
     }
     .presupuesto input[type="number"] {
@@ -76,7 +76,7 @@
         border: none;
         text-align: center;
         padding: 1rem;
-        background-color: var(--azul);
+        background-color: #6119be;
         color: var(--blanco);
         border-radius: 1rem;
         font-weight: 700;
@@ -85,7 +85,7 @@
         transition: .2s ease;
     }
     .presupuesto input[type="submit"]:hover{
-        background-color: #1048a4;
+        background-color: #4a1392;
         cursor: pointer;
     }
 </style>

@@ -222,7 +222,7 @@
     padding: 1rem;
   }
   .nuevo-gasto input[type="submit"]{
-    background-color: var(--azul);
+    background-color: #6119be;
     margin-top: 2rem;
     color: var(--blanco);
     cursor: pointer;
@@ -230,7 +230,7 @@
     transition: .2s ease;
   }
   .nuevo-gasto input[type="submit"]:hover{
-    background-color: rgb(31, 93, 185);
+    background-color: #4a1392;
   }
   .nuevo-gasto label{
     color: #fff;

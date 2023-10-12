@@ -34,7 +34,7 @@
         <circle-progress 
             :percent="porcentaje"
             :transition="500"
-            fill-color="#3b82f6"
+            fill-color="#4a1392"
         />
     </div>
     <div class="contenedor-presupuesto">
@@ -78,20 +78,20 @@
         }
     }
     .reset-app{
-        background-color: #db2777;
+        background-color: rgb(255 110 110);
         border-radius: 1rem;
         width: 100%;
         font-size: 2rem;
-        border: none;
         padding: 1rem;
         font-weight: 700;
+        border: none;
         color: var(--blanco);
         transition: .2s ease;
         text-transform: uppercase;
     }
     .reset-app:hover{
         cursor: pointer;
-        background-color: #b31f61;
+        background-color: rgb(197, 84, 84);
     }
     .contenedor-presupuesto{
         width: 100%;
@@ -107,7 +107,7 @@
         }
     }
     .contenedor-presupuesto span{
-        color: var(--azul);
+        color: #6119be;
         font-weight: 900;
     }
 
